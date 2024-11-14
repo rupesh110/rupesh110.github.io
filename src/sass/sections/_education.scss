@@ -1,0 +1,57 @@
+/* Education Section Styles with Animations */
+#education {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.education-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top on large screens */
+  margin-top: 20px;
+}
+
+.education-item {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.education-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.education-institution {
+  color: #666;
+  font-size: 16px;
+}
+
+.education-date {
+  color: #999;
+  font-size: 14px;
+}
+
+/* Hover Effect */
+.education-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional styles for large screens */
+@media screen and (min-width: 1024px) {
+  .education-wrapper {
+    align-items: center; /* Align items to the center on large screens */
+    padding-bottom: 100px;
+  }
+}
