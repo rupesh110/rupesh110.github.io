@@ -191,6 +191,11 @@ body {
   margin: 0;
 }
 
+.certifications-list a {
+  text-decoration: none;
+  color: inherit; /* Optional: keeps the text color the same as the surrounding text */
+}
+
 
 .certifications-list li {
   background-color: #fff;
