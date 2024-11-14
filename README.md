@@ -2,4 +2,4 @@
 # rupesh110.github.io
 =======
 
->>>>>>> origin/master
+>>>>>>> origin/main
