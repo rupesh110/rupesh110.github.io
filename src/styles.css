@@ -393,8 +393,11 @@ footer p {
   }
 
   #about img {
-      max-width: 150px;
-  }
+    max-width: 230px; 
+    height: auto;      
+    border-radius: 20%; 
+    margin: 20px auto; 
+}
 
   .job-item h3 {
       font-size: 1.5rem;
