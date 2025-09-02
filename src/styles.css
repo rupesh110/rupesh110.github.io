@@ -183,21 +183,22 @@ section { margin-bottom: 3.5rem; }
 /* ===== PROJECTS ===== */
 
 .project-item {
-  padding: 1rem;
-  box-sizing: border-box;
+  box-sizing: border-box; /* ensures padding doesn't cause overflow */
+  width: 100%;
 }
 
 .video-wrapper {
   width: 100%;
-  max-width: 100vw; /* never exceed viewport width */
-  overflow: hidden;  /* prevent horizontal overflow */
-  margin: 1rem 0;    /* spacing above/below video */
+  max-width: 100%;   /* never exceed parent */
+  overflow: hidden;  /* prevent horizontal scroll */
+  padding: 0;        /* remove padding inside wrapper */
+  margin: 1rem 0;    /* optional spacing above/below video */
 }
 
 .video-wrapper video {
-  width: 100vw;   /* full width of viewport */
-  max-width: 100%; /* never exceed parent */
-  height: auto;   /* keep aspect ratio */
+  width: 100%;       /* scale to parent width */
+  max-width: 100%;   /* never exceed container */
+  height: auto;      /* maintain aspect ratio */
   display: block;
   margin: 0;
 }
