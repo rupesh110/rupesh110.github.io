@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8XGDMD31D2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8XGDMD31D2');
+  </script>
+  <meta name="google-site-verification" content="7qAbIO0aPxWQ2Jg8n9NWBYa610kXxdENKCcuG0hbGVQ" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rupesh Shrestha | Software Developer</title>
+  <link rel="shortcut icon" href="./src/assets/Rupesh1.jpg" type="image/jpg" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <ul>
+      <li><a href="#header">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="container">
+      <img src="./src/assets/Rupesh1.jpg" alt="Rupesh Shrestha Photo" />
+      <h1>Rupesh Shrestha</h1>
+      <p>Software Developer</p>
+      <p><strong>React | NodeJS | JavaScript | C# | .NET | Azure</strong></p>
+
+      <div class="contact-info">
+        <p>Email: <a href="mailto:rupeshshrestha2537@gmail.com">rupeshshrestha2537@gmail.com</a></p>
+        <p>Phone: <a href="tel:+61406531147">0406 531 147</a></p>
+        <p>Location: Sydney, NSW</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/rupeshshresthas" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+          <a href="https://github.com/rupesh110" target="_blank" rel="noopener noreferrer">GitHub</a> |
+          <a href="https://medium.com/@rupeshshrestha2537" target="_blank" rel="noopener noreferrer">Blog</a>
+        </div>
+      </div>
+
+      <div class="quote">
+        Driven by curiosity, I seek to understand and build things that matter.
+      </div>
+    </div>
+  </header>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+
+    <!-- Real-Time Job Tracker Chrome Extension -->
+    <div class="project-item">
+      <h3>Real-Time Job Tracker Chrome Extension <span class="badge">NEW</span></h3>
+      <p>
+        Built a Chrome extension to track the number of jobs applied to in real time.
+        While viewing a job description, it uses Gemini AI to analyze and compare
+        roles against your resume, providing instant insights into job fit, skill gaps,
+        and relevance. (Pending Google approval for distribution)
+      </p>
+      <p><strong>Technologies Used:</strong> JavaScript, Chrome Extension API, Gemini AI, HTML, CSS</p>
+      <div class="project-links">
+        <a href="https://github.com/rupesh110/jobtrackerwithrealtimeanalysis" target="_blank" rel="noopener noreferrer" class="project-link">Source Code</a>
+      </div>
+      <video width="600" controls>
+        <source src="./src/assets/Extension-Demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- AI-Powered Job Assistant -->
+    <div class="project-item">
+      <h3>AI-Powered Job Assistant</h3>
+      <p>
+        An AI-driven job assistant that fetches job postings, compares them against 
+        my resume using Gemini AI, and sends real-time Slack notifications for 
+        high-match roles. Built using Google Cloud Scheduler, Cloud Run, and 
+        secure resume storage in Azure Blob. Data is organized in SQLite locally 
+        and mirrored to Azure Cosmos DB.
+      </p>
+      <p><strong>Technologies Used:</strong> JavaScript, Node.js, Gemini AI, Google Cloud, Azure, Slack API</p>
+      <div class="project-links"></div>
+      <img src="./src/assets/Job-Assistant-UML.png" alt="AI Job Assistant UML" class="project-image" />
+    </div>
+
+    <!-- Existing Projects -->
+    <div class="project-item">
+      <h3>Admin Dashboard</h3>
+      <p class="project-highlight">Realtime Dashboard for Organizational Insights</p>
+      <p>
+        Architected and executed the development of a user-friendly admin
+        dashboard, utilizing JavaScript, React, Express.js, and MongoDB;
+        enabled administrators to monitor real-time data, leading to informed
+        decision-making and enhanced productivity within the organization.
+      </p>
+      <p><strong>Technologies Used:</strong> JavaScript, NodeJS, React, Express.js, MongoDB</p>
+      <div class="project-links">
+        <a href="https://admin-frontend-56da.onrender.com/" target="_blank" rel="noopener noreferrer" class="project-link">See Live</a>
+        <a href="https://github.com/rupesh110/adminDashboardFullstack" target="_blank" rel="noopener noreferrer" class="project-link">Source Code</a>
+      </div>
+      <img src="./src/assets/admin-dashboard.jpg" alt="Admin Dashboard Project" class="project-image" />
+    </div>
+
+    <div class="project-item">
+      <h3>Social Media Backend (Developing Phase)</h3>
+      <p>
+        Engineered a data-driven backend architecture for a social media app,
+        leveraging Python and FastAPI framework; optimized SQL data management
+        to ensure efficient server-to-front-end communication, resulting in
+        enhanced user experience and increased engagement.
+      </p>
+      <p><strong>Technologies Used:</strong> Python, FastAPI, SQL, GitHub, CI/CD, Swagger, Heroku</p>
+      <div class="project-links">
+        <a href="https://github.com/rupesh110/fastapi-py" target="_blank" rel="noopener noreferrer" class="project-link">Source Code</a>
+      </div>
+      <img src="./src/assets/socialMedia.jpg" alt="Social Media Backend Project" class="project-image" />
+    </div>
+
+    <div class="project-item">
+      <h3>Web Scrapper</h3>
+      <p>
+        Developed a web scraping application that allows users to monitor the
+        prices of items and receive email notifications when the price
+        decreases.
+      </p>
+      <div class="project-links">
+        <a href="https://github.com/rupesh110/watchPrice" target="_blank" rel="noopener noreferrer" class="project-link">Source Code</a>
+      </div>
+      <img src="./src/assets/web-scrapper.jpg" alt="Web Scrapper Project" class="project-image" />
+    </div>
+
+  </section>
+
+<!-- BLOG -->
+<section id="blog" class="container">
+  <h2>Blog</h2>
+  <div class="blog-grid">
+
+    <div class="blog-card">
+        <img src="./src/assets/save-jobs.webp" alt="Automate your job search" class="blog-thumbnail" />
+      <div class="blog-content">
+        <h3>Automate your job search and stay organised with a custom browser extension, Part 2</h3>
+        <p>Missed Part 1?</p>
+        <p>Read it here</p>
+        <p class="blog-date">Published: Jul 29, 2025</p>
+        <a href="https://medium.com/@rupeshshrestha2537/automate-your-job-search-part-2" target="_blank" class="project-link">Read More</a>
+      </div>
+    </div>
+
+    <div class="blog-card">
+      <img src="./src/assets/UML-save-jobs.webp" alt="Automate your job search" class="blog-thumbnail" />
+      <div class="blog-content">
+        <h3>Automate your job search and stay organised with a custom browser extension, Part 1</h3>
+        <p>Between LinkedIn, Seek, and company career sites, it’s easy to lose track</p>
+        <p class="blog-date">Published: Jul 27, 2025</p>
+        <a href="https://medium.com/@rupeshshrestha2537/automate-your-job-search-part-1" target="_blank" class="project-link">Read More</a>
+      </div>
+    </div>
+
+  <div class="blog-card">
+    <img src="./src/assets/uml_integration.webp" alt="The Integration Era Thumbnail" class="blog-thumbnail" />
+    <div class="blog-content">
+      <h3>The Integration Era: Connecting Systems the Modern Way</h3>
+      <p>In today’s tech-driven world, software systems rarely operate in isolation. Whether you’re syncing customer data between your CRM and…</p>
+      <p class="blog-date">Published: Jul 23, 2025</p>
+      <a href="https://medium.com/@rupeshshrestha2537/the-integration-era" target="_blank" class="project-link">Read More</a>
+    </div>
+  </div>
+
+
+    <div class="blog-card">
+      <img src="./src/assets/maunal-chaos.webp" alt="From Manual to Chaos" class="blog-thumbnail" />
+      <div class="blog-content">
+        <h3>From Manual Chaos to Automated Efficiency: Transforming Compliance Processes, Part 2</h3>
+        <p>The Solution: Automating Compliance for Efficiency and Accountability</p>
+        <p class="blog-date">Published: Nov 27, 2024</p>
+        <a href="https://medium.com/@rupeshshrestha2537/compliance-processes-part-2" target="_blank" class="project-link">Read More</a>
+      </div>
+    </div>
+
+    <div class="blog-card">
+        <img src="./src/assets/current-flow.webp" alt="From Manual to Chaos current process" class="blog-thumbnail" />
+      <div class="blog-content">
+        <h3>From Manual Chaos to Automated Efficiency: Transforming Compliance Processes, Part 1</h3>
+        <p>Compliance is the cornerstone of any organization, from small businesses to large enterprises, ensuring safety, accountability, and smooth…</p>
+        <p class="blog-date">Published: Nov 20, 2024</p>
+        <a href="https://medium.com/@rupeshshrestha2537/compliance-processes-part-1" target="_blank" class="project-link">Read More</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="container">
+    <h2>Professional Experience</h2>
+
+    <div class="job-item">
+      <h3><a href="https://www.pst-group.com.au" target="_blank" rel="noopener noreferrer">PST GROUP</a>: Software Developer | Jul 2024 - Present</h3>
+      <p>Focused on digital transformation and UCaaS/UC services</p>
+      <ul>
+        <li>Automated compliance workflows, improving response times by 30% and reducing manual processing.</li>
+        <li>Redesigned data schemas for the complaints register, achieving 100% accuracy and reducing submission time by 60%.</li>
+        <li>Integrated Salesforce CRM with Zoom, improving communication efficiency by 10%.</li>
+      </ul>
+      <p><strong>Technologies Used:</strong> C#, .NET, React, JavaScript, Node.js, Minimal API, Serverless, Docker, CI/CD</p>
+    </div>
+
+    <div class="job-item">
+      <h3><a href="https://www.entasker.com" target="_blank" rel="noopener noreferrer">Entasker</a>: Software Developer | Feb 2024 - Jun 2024</h3>
+      <p>Specialized in data migration and digital transformation for legal firms</p>
+      <ul>
+        <li>Built a static site generator with React & .NET to present metadata in an accessible format, expediting data access.</li>
+        <li>Integrated SharePoint for document archiving, reducing storage costs by 80%.</li>
+        <li>Boosted processing speed by 60% and enhanced DMS consistency using C#, APIs, and SQL.</li>
+      </ul>
+      <p><strong>Technologies Used:</strong> .NET, C#, React, JavaScript, Node.js, SQL, Docker, APIs, Graph API, PowerShell</p>
+    </div>
+
+    <div class="job-item">
+      <h3><a href="https://www.faethm.ai/products/strategic-workforce-planning" target="_blank" rel="noopener noreferrer">Faethm By Pearson</a>: Full Stack Software Developer | Feb 2023 - Jul 2023</h3>
+      <p>Provided insights for strategic workforce planning</p>
+      <ul>
+        <li>Engineered interactive data visualizations with React, JavaScript, & D3.js to aid strategic decision-making.</li>
+        <li>Optimized endpoints, boosting data retrieval speed by 30% and increasing user engagement.</li>
+        <li>Secured the platform by implementing Auth0 for user authentication, protecting over 1,000 users.</li>
+      </ul>
+      <p><strong>Technologies Used:</strong> React, JavaScript, TypeScript, D3.js, Python, Figma, Auth0, Confluence, API development</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill-item">
+        <h4>React</h4>
+        <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+          <div class="skill-fill fill-react"></div>
+        </div>
+        <p>Proficient in building reusable components and hooks.</p>
+      </div>
+      <div class="skill-item">
+        <h4>Node.js</h4>
+        <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+          <div class="skill-fill fill-node"></div>
+        </div>
+        <p>Experience in API development, Express.js, and serverless functions.</p>
+      </div>
+      <div class="skill-item">
+        <h4>C# &amp; .NET</h4>
+        <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+          <div class="skill-fill fill-csharp"></div>
+        </div>
+        <p>Backend development with clean architecture and microservices.</p>
+      </div>
+      <div class="skill-item">
+        <h4>Azure</h4>
+        <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+          <div class="skill-fill fill-azure"></div>
+        </div>
+        <p>Cloud services, Azure Functions, Service Bus, and DevOps pipelines.</p>
+      </div>
+      <div class="skill-item">
+        <h4>Postman & API Testing</h4>
+        <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="skill-fill fill-postman"></div>
+        </div>
+        <p>Automated API testing and API management experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="container">
+    <h2>Certifications</h2>
+    <ul class="certifications-list">
+      <li>
+        <a href="https://www.udemy.com/certificate/UC-63ca9f14-5b7a-4749-8ddd-35569a411cfd/" target="_blank" rel="noopener noreferrer">
+          Azure Functions, Logic Apps & Blob Storage
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/learning/certificates/c0799ca280357eb63bf00fdb5142403c1c15ba13c0fdfa287376191e57c02f27" target="_blank" rel="noopener noreferrer">
+          Azure API Management
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/learning/certificates/80141d21d8c7eed1088dcb0a0dea27c00ef396548508077196351e485adff0c9" target="_blank" rel="noopener noreferrer">
+          ASP.NET Core Web APIs
+        </a>
+      </li>
+      <li>
+        <a href="https://badgr.com/public/assertions/zDqWLCW3T3-ZfQZa9eyrXg" target="_blank" rel="noopener noreferrer">
+          API Test Automation (Postman)
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>
+      Passionate software developer with expertise in full-stack development,
+      focusing on scalable backend APIs and cloud automation. Skilled in React,
+      Node.js, C#, and Azure cloud services. Committed to continuous learning
+      and delivering quality solutions.
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="container">
+    <h2>Let's Connect</h2>
+    <p>
+      I'm always open to meaningful conversations and opportunities. Feel free to connect with me on LinkedIn.
+    </p>
+    <a href="https://www.linkedin.com/in/rupeshshresthas" target="_blank" rel="noopener noreferrer" class="linkedin-button">
+      Connect on LinkedIn
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2024 Rupesh Shrestha. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
