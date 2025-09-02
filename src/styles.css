@@ -181,6 +181,14 @@ header .quote {
 section { margin-bottom: 3.5rem; }
 
 /* ===== PROJECTS ===== */
+
+.responsive-video {
+  width: 100%;
+  max-width: 600px;
+  height: auto; /* maintain aspect ratio */
+  display: block; /* remove inline spacing */
+}
+
 .project-item {
   background: #fff;
   padding: 1.5rem;
