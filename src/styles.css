@@ -182,12 +182,18 @@ section { margin-bottom: 3.5rem; }
 
 /* ===== PROJECTS ===== */
 
-.responsive-video {
+.video-wrapper {
   width: 100%;
-  max-width: 600px;
-  height: auto; /* maintain aspect ratio */
-  display: block; /* remove inline spacing */
+  max-width: 100%; /* ensure container never exceeds screen */
+  overflow: hidden; /* hide any overflow */
 }
+
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 .project-item {
   background: #fff;
