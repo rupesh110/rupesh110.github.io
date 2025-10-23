@@ -301,6 +301,76 @@ section { margin-bottom: 3.5rem; }
 /* ===== ABOUT ===== */
 #about p { max-width: 600px; margin: 0 auto; font-size: 1.1rem; line-height: 1.5; text-align: center; font-weight: 500; }
 
+/* ============================= */
+/* EXPLORING SECTION STYLING */
+/* ============================= */
+#exploring {
+  margin-top: 4rem;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+#exploring:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+#exploring h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+#exploring h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #2563eb;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+#exploring p {
+  max-width: 850px;
+  margin: 0 auto 1rem auto;
+  font-size: 1.1rem;
+  color: #374151;
+  line-height: 1.7;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+#exploring strong {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+#exploring p:hover strong {
+  color: #1e3a8a;
+}
+
+@media (max-width: 768px) {
+  #exploring {
+    padding: 2rem 1.2rem;
+  }
+
+  #exploring h2 {
+    font-size: 1.5rem;
+  }
+
+  #exploring p {
+    font-size: 1rem;
+    text-align: left;
+  }
+}
+
+
 /* ===== CONTACT ===== */
 #contact { text-align: center; margin-top: 4rem; }
 
